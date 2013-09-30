@@ -10,7 +10,8 @@ Nuget packages are produced for both the V4 and V7-AppCompat libraries.
 
 ## Build instructions ##
  * Place Xamarin.Android.Support.v4-r18.dll into the `V4.Binding\lib\MonoAndroid` folder. It can be downloaded from the Xamarin component store.
- * Set the `ANDROID_SDK_HOME` environment variable to the root of your Android SDK folder.
+ * Install the android support library component in the Android SDK manager. 
+Set the `ANDROID_SDK_HOME` environment variable to the root of your Android SDK folder.
  * Build the android-support-v7-appcompat library in eclipse. ( See below )
  * Run psake.cmd
 
