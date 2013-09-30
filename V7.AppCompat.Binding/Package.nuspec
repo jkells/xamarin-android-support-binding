@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Xamarin.Android.Support.V7.AppCompat.Binding</id>
+    <version>13.18.0.1002</version>
+    <authors>The Android Open Source Project</authors>	
+	<owners>Jared Kells</owners>
+    <projectUrl>http://developer.android.com/tools/support-library/</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin Android bindings for android-support-v7-appcompat.jar (Revision 18)</description>    
+    <tags>android</tags>
+	<dependencies>
+	  <dependency id="Xamarin.Android.Support.V4" version="4.18.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="Bin\Release\Xamarin.Android.Support.v7.AppCompat.dll" target="lib\MonoAndroid" />
+	<file src="Bin\Release\Xamarin.Android.Support.v7.AppCompat.pdb" target="lib\MonoAndroid" />	
+  </files>
+</package>

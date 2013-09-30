@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Xamarin.Android.Support.V4.Binding</id>
+    <version>4.18.0.1002</version>
+    <authors>The Android Open Source Project</authors>	
+	<owners>Jared Kells</owners>
+    <projectUrl>http://developer.android.com/tools/support-library/</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin Android bindings for android-support-v4 (Revision 18)</description>    
+    <tags>android</tags>
+  </metadata>
+  <files>	
+	<file src="lib\MonoAndroid\Xamarin.Android.Support.v4-r18.dll" target="lib\MonoAndroid" />	
+  </files>
+</package>
